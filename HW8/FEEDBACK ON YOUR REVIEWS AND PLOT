@@ -1,0 +1,62 @@
+the reviews were good, but sometimes hard to understand. some words you used i think were just the opposite of what you wanted to say (e.g. "The plot is deforming it, so it is easy to find out the density", where i think you mean the plot is a honest representation of the data but you are conveying the opposite)
+i have a Chinese physics student who found some great resources on English scientific writing for Chinese speakers (which i assume you are). if you are interested i can forward it to you, just let me know
+10/10
+
+
+NOTES ON YOUR PLOT
+==================
+[!alt text](hw8.png)
+
+the default 3 datapoints for scatter plot should be changes as it is unnecessarily redundant
+
+the color difference between white and asian is not visible and nearly all colors blend for color blind people
+
+
+the thick-dashed line is not labeled nor in the legend.
+
+the choice of thick and thick-dashed line and of 2 dotted lines in subdued colors seems to suggest the first two lines are the important ones, 
+while the other ones are less important. 
+
+tick labels are too small. axis labels are good and readable
+
+the title is excessively large, taking attention away from the plot.
+
+ry692
+=====
+
+the use if size nicely displays the third variable. 
+the size range for the datapoints is sensible: nice differential, not too large points not too small points
+
+axis labels and tick labels, and legend  are nicely readable
+
+
+
+"ln, person" is not clear what it means: just say "population (natural log - and are you sure it is not log10!!! 
+in log 10 the orders of magnitude are displayed at regular intervals. usually we plot in log10: 
+it is easy to relate 3 in log10 to 10^3=1000 but in ln?)"
+
+
+
+dm3805
+=======
+
+small tick labels
+
+small axis label (not terribly small but a bit)
+
+the faint colors may not render well in a page with other stuff in it. 
+
+assigning shades of red and blue to females and males does enhance clarity through intuition but it charges the plot with gender issues: more neutral colors are advisable. 
+
+the distribution of the data would probably be suitable to a log scale on the y axis. this would separate the bottom of the range, which now appears to be the same by eye for all categories.
+
+jz1894
+======
+
+the choice of a single color colormap is great: it shows gradients intuitively without suggesting anything else. however the color map has a large gradient between the first and  second color (gray to pink) which is misleading as it separates the locations with this color as different, while the range is 0-2: an interval as any other in the carbon emission scale.
+
+the upper range is not bound. it should be shown somewhere for reference what the true range is
+
+the granularity is not explained. an explanation for it does not necessarily belong in the plot but if this were included in a document it should certainly be explained why some regions are very finely sampled and others are note 
+
+alaska and hawaii are nicely included and separated appropriately but he gray lines (though the polygon around hawaii has a lot of sides that are not necessary separating empty space between HW and AK giving the odd impression that HW is surrounded
